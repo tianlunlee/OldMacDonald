@@ -5,7 +5,13 @@ class Farm
 	public Farm() {
 
 	friends[0] = new Cow("cow", "moo");
-	friends[1] = new Chick("chick", "peep");
+	if (Math.random() > 0.5) {
+		friends[1] = new Chick("chick", "peep");
+	}
+	else {
+		friends[1] = new Chick("chick", "cluck");
+	}
+	
 	friends[2] = new Pig("pig", "oink");
 
 	}
