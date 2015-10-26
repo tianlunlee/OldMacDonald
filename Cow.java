@@ -1,9 +1,9 @@
 class Cow implements Animal 
 {     
      //your code here
-	private int numLegs;
-	private String myType; 
-	private String mySound;
+	protected int numLegs;
+	protected String myType; 
+	protected String mySound;
 	public Cow(String type, String sound) {
 		myType = type;
 		mySound = sound;
